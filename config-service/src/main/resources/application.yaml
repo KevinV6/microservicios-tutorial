@@ -1,0 +1,12 @@
+server:
+  port: 8081
+srping:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server
+          uri: https://github.com/KevinV6/microservicios-tutorial
+          search-paths: config-data
+  application:
+    name: config-service
